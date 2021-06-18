@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#151515;
+	
+	/*background:#6E6E6E;*/
+}
+
+header, main, footer {
+	width:95%;
+	max-width:1100px;
+	margin:20px auto;
+}
+
+header{
+	font-family: Quicksand;
+	background:#151515;
+}
+
+header titulo img{
+	float:left;
+	padding:10px 10px;
+	margin-bottom:15px;
+}
+
+header titulo h1{
+	color:#FFFFFF;
+	text-align:center;
+	padding:10px 0px;
+	font-size: 500%;
+	text-shadow: 2px 2px 5px white;
+	font-weight: 1000;
+}
+
+header titulo h2{
+	color:#FFFFFF;
+	text-align:center;
+	padding:10px 0px;
+	font-size: 250%;
+	font-weight: 1000;
+}
+
+header nav{
+	background:#528FD5;
+	overflow:hidden;
+	clear:both;
+}
+
+header nav ul{
+	list-style:none;
+	}
+	
+header nav ul li{
+	float:left;
+	}
+
+header nav ul li a{
+	padding:10px 20px ;
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	}
+header nav ul li a:hover{
+	background:#75acec;
+	}
+	
+main articles {
+	font-family: Quicksand;
+	margin-right:1.5%;
+
+}
+
+main articles article{
+	margin:auto;
+	width:80%;
+	height:50%;
+	padding:35px 35px;
+	background:#BDBDBD;
+	margin-bottom:20px;
+	border-radius: 25px
+}
+
+aside{
+	width:29%;
+	background:#ff8000;
+	float:right;
+	padding:16px 50px;
+	box-sizing:border-box;
+	text-align: justify;
+	font-family: Quicksand, Arial;
+	border-radius: 25px;
+	margin-bottom:15px;
+}
+
+footer{
+	background:#000000;
+	color:#BDBDBD;
+	clear:both;
+	padding:10px 10px;
+	text-align:center;
+	border-radius: 25px
+}
